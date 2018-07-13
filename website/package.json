@@ -1,0 +1,17 @@
+{
+  "name": "website_service",
+  "version": "1.0.0",
+  "description": "Microservice for handling websites",
+  "author": "Machavia Pichet <machavia.pichet@stormize.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "xvfb-run node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fast-levenshtein": "^2.0.6",
+    "http-status": "^1.0.1",
+    "nightmare": "^3.0.1"
+  }
+}
